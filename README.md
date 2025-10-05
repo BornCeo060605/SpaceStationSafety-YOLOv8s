@@ -19,26 +19,14 @@ This model supports **autonomous monitoring** of safety-critical equipment on a 
 
 ```
 SpaceStationSafety-YOLOv8s/
-├── data.yaml
-├── dataset/
-│   ├── train3/
-│   │   ├── images/
-│   │   └── labels/
-│   └── val3/
-│       ├── images/
-│       └── labels/
-├── runs/
-│   └── yolo_experiment_v2_T4/
-│       ├── weights/
-│       │   └── best.pt
-│       ├── results.png
-│       ├── confusion_matrix.png
-│       ├── BoxF1_curve.png (optional)
-│       └── BoxPR_curve.png (optional)
-├── train_yolov8.py
-├── requirements.txt
 ├── README.md
-└── .gitignore
+├── train_yolov8.py
+├── data.yaml
+├── requirements.txt
+├── results.png
+├── confusion_matrix.png
+├── BoxF1_curve.png
+├── BoxPR_curve.png
 ```
 
 ---
@@ -98,13 +86,13 @@ results.show()
 
 **Evaluation Metrics:**
 
-![Training Results](runs/yolo_experiment_v2_T4/results.png)  
-![Confusion Matrix](runs/yolo_experiment_v2_T4/confusion_matrix.png)  
+![Training Results](results.png)  
+![Confusion Matrix](confusion_matrix.png)  
 
 **Optional Metric Curves:**
 
-![Box F1 Curve](runs/yolo_experiment_v2_T4/BoxF1_curve.png)  
-![Box PR Curve](runs/yolo_experiment_v2_T4/BoxPR_curve.png)  
+![Box F1 Curve](confusion_matrix.png)  
+![Box PR Curve](BoxPR_curve.png)  
 
 > These images showcase accuracy, precision, recall, mAP, and class-wise performance.
 
