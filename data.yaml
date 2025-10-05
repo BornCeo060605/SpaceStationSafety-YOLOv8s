@@ -1,0 +1,6 @@
+
+train: /content/dataset/train_3/train3/images
+val: /content/dataset/train_3/val3/images
+
+nc: 7
+names: ['oxygen_tank', 'nitrogen_tank', 'first_aid_box', 'fire_alarm', 'safety_switch_panel', 'emergency_phone', 'fire_extinguisher']
