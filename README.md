@@ -91,7 +91,7 @@ results.show()
 
 **Optional Metric Curves:**
 
-![Box F1 Curve](confusion_matrix.png)  
+![Box F1 Curve](BoxF1_curve.png)  
 ![Box PR Curve](BoxPR_curve.png)  
 
 > These images showcase accuracy, precision, recall, mAP, and class-wise performance.
